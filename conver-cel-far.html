@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div style="background-color:black;color:#ffffff;padding:20px;">
+       <form>
+                 <h1 align="center">Convertidor de Celsius a Fahrenheit y Kelvin</h1>
+         <table border="2" style="margin: 0 auto;">
+           <tr>
+               <td colspan="2"> temperatura  Celsius: </td>
+               <td><input type="text" id="idCelsius"></td>
+           </tr>
+
+           <tr>
+             <td>Fahrenheit</td>
+             <td><input type="text" id="IdCajaFarenheit"></td>
+             <td><button type="button"  id="idconvertirfareheit" onclick = "convertirFahrenheit(); return false ">convertir a Farenheit</button></td>
+           </tr>
+
+            <tr>
+              <td>Kelvin</td>
+              <td><input type="text" id="idCajaKelvin"></td>
+              <td><button type="button"  id="idconvertirKelvin" onclick = "Kelvin() ; return false ">convertir a Kelvint</button></td>
+            </tr>
+           </tr>
+
+         </table>
+    </div>
+    <script  type='text/javascript' src='js/convertirmain.js'></script>
+  </form>
+  </body>
+</html>
